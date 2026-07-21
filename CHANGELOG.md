@@ -20,6 +20,11 @@ All notable public changes to KeyBit HU66 are documented here.
 - HU66 MACS validation.
 - Debug image and JSON export.
 
+### Fixed
+
+- Corrected the documentation preview so HU66 positions are numbered from the shoulder toward the tip (1 = 3 mm, 8 = 24 mm).
+- Added explicit position-numbering notes to the English and Ukrainian README files and the algorithm overview.
+
 ### Safety
 
 - Public alpha warning remains visible.

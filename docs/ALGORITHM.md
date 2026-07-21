@@ -27,7 +27,8 @@ KeyBit HU66 is a classical computer-vision pipeline implemented in local browser
    - Local stability, slope, mask support, and segmentation agreement contribute to confidence.
 
 6. **Position measurement**
-   - Eight position windows are sampled along the working length.
+   - Eight position windows are sampled from the shoulder toward the tip.
+   - HU66 numbering is fixed as position 1 = 3 mm and position 8 = 24 mm from the shoulder.
    - Each measurement is compared with the configured four-level HU66 model.
 
 7. **MACS validation**

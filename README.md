@@ -8,6 +8,8 @@ KeyBit aligns a key-blade photo, normalizes the HU66 working area, extracts the 
 
 ![KeyBit HU66 interface preview](docs/assets/ui-preview.png)
 
+> **HU66 position numbering:** positions are counted from the **shoulder toward the tip**. Position 1 is at 3 mm; position 8 is at 24 mm.
+
 ## Why this project exists
 
 Commercial key machines are convenient, but the image-processing pipeline behind a usable decoder is an interesting engineering problem in its own right. KeyBit explores a transparent, offline-first approach that can be inspected, tested, and improved in public.
@@ -18,7 +20,7 @@ Commercial key machines are convenient, but the image-processing pipeline behind
 - Ukrainian and English interface.
 - Automatic and manual blade rotation.
 - Two-point manual frame: **tip** and **shoulder**.
-- HU66 stencil with the current 8.18 × 28 mm profile geometry and 3–24 mm position guides.
+- HU66 stencil with the current 8.18 × 28 mm profile geometry and position guides numbered from the shoulder toward the tip (1 = 3 mm, 8 = 24 mm).
 - Internal-track trajectory extraction with per-position confidence.
 - HU66 MACS validation and a separately displayed corrected candidate.
 - Debug image and JSON export.

@@ -1,4 +1,4 @@
 a595fa104c0de8eadb3f6c2b78a142deb6e8b88ac4139864ffa5db7a77d58ea0  index.html
 a595fa104c0de8eadb3f6c2b78a142deb6e8b88ac4139864ffa5db7a77d58ea0  dist/keybit_hu66_local_v0.3.5-alpha.html
 2a138bc6bbd5d8f422e7eb9bb8bd1cab90e3d4e585b68fa23d96292c8bd744f9  docs/assets/social-preview.png
-77e256a37590eac12ce4c87e000eabe9471fac59cfafd3c1ea1e75eb691d28c6  docs/assets/ui-preview.png
+c50661b4911e55084fe081c91951cbd771181e55676303107aa2a1c996028660  docs/assets/ui-preview.png
