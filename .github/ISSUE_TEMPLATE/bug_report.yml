@@ -1,0 +1,57 @@
+name: Bug report
+about: Report incorrect behavior without exposing customer key data
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not upload identifiable customer keys, VINs, addresses, EXIF location data, or proprietary database exports.
+  - type: input
+    id: version
+    attributes:
+      label: KeyBit version
+      placeholder: v0.3.5-alpha
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device, OS, and browser
+      placeholder: Pixel 8, Android 16, Chrome ...
+    validations:
+      required: true
+  - type: dropdown
+    id: alignment
+    attributes:
+      label: Alignment mode
+      options:
+        - Automatic
+        - Manual vertical rotation
+        - Manual tip/shoulder frame
+        - Mixed
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the raw code, MACS result, confidence, and visible failure mode. Use synthetic or explicitly authorized data only.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Independently verified expected behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Authorization and privacy
+      options:
+        - label: I am authorized to test the key/vehicle involved.
+          required: true
+        - label: I removed customer identifiers and EXIF location data.
+          required: true
+        - label: I understand KeyBit is experimental and requires independent verification before cutting.
+          required: true

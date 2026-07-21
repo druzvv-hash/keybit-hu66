@@ -1,0 +1,31 @@
+name: Feature request
+about: Suggest an improvement or a new profile-family capability
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Explain the workflow problem rather than only the requested UI control.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How should it be validated?
+      description: Include a safe synthetic or authorized test plan.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data policy
+      options:
+        - label: This request does not include unauthorized key data or a copied commercial database.
+          required: true

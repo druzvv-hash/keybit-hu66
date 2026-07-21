@@ -1,0 +1,14 @@
+{
+  "name": "keybit-hu66",
+  "version": "0.3.5-alpha.0",
+  "private": true,
+  "description": "Experimental offline HU66 internal-track decoder for mobile and desktop browsers.",
+  "type": "module",
+  "scripts": {
+    "test": "node tools/verify-build.mjs"
+  },
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,22 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs and temporary output
+*.log
+.tmp/
+tmp/
+out/
+
+# Private validation data — never commit customer keys
+private-data/
+private-samples/
+regression-private/
+*.private.json
+
+# Local export files
+*_hu66_debug.jpg
+*_hu66.json
